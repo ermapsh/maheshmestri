@@ -5,7 +5,7 @@ import { TechMatrix } from "../components/ui/TechMatrix";
 import { personalInfo } from "../data/portfolioData";
 import type { Route } from "./+types/about";
 
-export function meta({}: Route.MetaArgs) {
+export function meta({ }: Route.MetaArgs) {
   return [
     { title: "About & Engineering Philosophy | Mahesh Anant Mestri" },
     {
@@ -68,7 +68,7 @@ export default function AboutPage() {
           Bridging Mobile & Distributed Systems
         </h1>
         <p className="text-gray-400 text-base leading-relaxed">
-          I am a Software Engineer based in Mumbai, India with 3.7+ years of experience engineering real-world mobile platforms and enterprise backends.
+          I am a Software Engineer based in Mumbai, India with 4+ years of experience engineering real-world mobile platforms and enterprise backends.
         </p>
       </div>
 
@@ -109,7 +109,7 @@ export default function AboutPage() {
             </h2>
           </div>
           <span className="text-xs font-mono text-gray-500">
-            Self-assessed based on 3.7+ years production delivery
+            Self-assessed based on 4+ years production delivery
           </span>
         </div>
 
@@ -139,3 +139,4 @@ export default function AboutPage() {
     </div>
   );
 }
+

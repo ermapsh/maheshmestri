@@ -97,7 +97,7 @@ export function Footer() {
               <span className="font-bold text-lg text-white">Mahesh Anant Mestri</span>
             </div>
             <p className="text-gray-400 text-sm leading-relaxed max-w-md">
-              Software Engineer with 3.7+ years building enterprise React Native applications, MediaPipe AI pose tracking, Kafka event pipelines, and distributed Java Spring Boot services.
+              Software Engineer with 4+ years building enterprise React Native applications, MediaPipe AI pose tracking, Kafka event pipelines, and distributed Java Spring Boot services.
             </p>
             <div className="flex items-center gap-2 text-xs font-mono text-gray-400">
               <Clock className="w-3.5 h-3.5 text-cyan-400" />
@@ -206,3 +206,4 @@ export function Footer() {
 }
 
 export default Footer;
+

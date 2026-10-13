@@ -5,13 +5,13 @@ import { ExperienceTimeline } from "../components/ui/ExperienceTimeline";
 import { education, personalInfo } from "../data/portfolioData";
 import type { Route } from "./+types/experience";
 
-export function meta({}: Route.MetaArgs) {
+export function meta({ }: Route.MetaArgs) {
   return [
     { title: "Career Experience | Mahesh Anant Mestri" },
     {
       name: "description",
       content:
-        "3.7+ years software engineering experience at SMFG India Credit, GOQii, and GlobalSpace Technologies.",
+        "4+ years software engineering experience at SMFG India Credit, GOQii, and GlobalSpace Technologies.",
     },
   ];
 }
@@ -24,7 +24,7 @@ export default function ExperiencePage() {
         <div className="max-w-2xl">
           <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-cyan-500/10 border border-cyan-500/20 text-cyan-400 text-xs font-mono mb-4">
             <Briefcase className="w-3.5 h-3.5" />
-            <span>3.7+ Years Professional History</span>
+            <span>4+ Years Professional History</span>
           </div>
           <h1 className="text-4xl sm:text-5xl font-extrabold text-white tracking-tight mb-4">
             Career Timeline & Deliverables
@@ -84,3 +84,4 @@ export default function ExperiencePage() {
     </div>
   );
 }
+

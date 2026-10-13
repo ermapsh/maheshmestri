@@ -190,3 +190,4 @@ export function HeroCanvas({ className = "" }: { className?: string }) {
 }
 
 export default HeroCanvas;
+

@@ -245,3 +245,4 @@ export function CommandPalette({ isOpen, onClose }: CommandPaletteProps) {
 }
 
 export default CommandPalette;
+

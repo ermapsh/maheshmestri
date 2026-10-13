@@ -13,7 +13,7 @@ export function ExperienceTimeline() {
         {experience.map((item, idx) => (
           <div key={item.id} className="relative pl-12 sm:pl-20 group">
             {/* Timeline Node Icon */}
-            <div className="absolute left-2.5 sm:left-6.5 top-1.5 -translate-x-1/2 w-5 h-5 rounded-full bg-gray-950 border-2 border-cyan-400 group-hover:scale-125 group-hover:border-purple-400 transition-all shadow-[0_0_12px_rgba(6,182,212,0.6)] flex items-center justify-center">
+            <div className="absolute left-2.5 sm:left-8 top-1.5 -translate-x-1/2 w-5 h-5 rounded-full bg-gray-950 border-2 border-cyan-400 group-hover:scale-125 group-hover:border-purple-400 transition-all shadow-[0_0_12px_rgba(6,182,212,0.6)] flex items-center justify-center">
               <span className="w-1.5 h-1.5 rounded-full bg-cyan-400 group-hover:bg-purple-300 transition-colors" />
             </div>
 
@@ -86,3 +86,4 @@ export function ExperienceTimeline() {
 }
 
 export default ExperienceTimeline;
+

@@ -19,13 +19,13 @@ import { ProjectCard } from "../components/ui/ProjectCard";
 import { personalInfo, projects } from "../data/portfolioData";
 import type { Route } from "./+types/home";
 
-export function meta({}: Route.MetaArgs) {
+export function meta({ }: Route.MetaArgs) {
   return [
     { title: "Mahesh Anant Mestri | Mobile & Full-Stack Software Engineer" },
     {
       name: "description",
       content:
-        "Portfolio of Mahesh Mestri: Software Engineer with 3.7+ years experience in React Native, MediaPipe AI pose detection, Java Spring Boot, and Kafka microservices.",
+        "Portfolio of Mahesh Mestri: Software Engineer with 4+ years experience in React Native, MediaPipe AI pose detection, Java Spring Boot, and Kafka microservices.",
     },
   ];
 }
@@ -91,7 +91,7 @@ export default function Home() {
             className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl bg-white/[0.05] hover:bg-white/[0.1] border border-white/10 text-gray-200 hover:text-white font-medium text-sm transition-all backdrop-blur-md"
           >
             <Briefcase className="w-4 h-4 text-cyan-400" />
-            <span>Career Journey (3.7+ Yrs)</span>
+            <span>Career Journey (4+ Yrs)</span>
           </Link>
         </div>
 

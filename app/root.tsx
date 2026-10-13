@@ -13,6 +13,8 @@ import "./app.css";
 import { Navbar } from "./components/ui/Navbar";
 import { Footer } from "./components/ui/Footer";
 import { CommandPalette } from "./components/ui/CommandPalette";
+import { ToastContainer } from "react-toastify/unstyled";
+// import "react-toastify/dist/ReactToastify.css";
 
 export const links: Route.LinksFunction = () => [
   { rel: "preconnect", href: "https://fonts.googleapis.com" },
@@ -38,6 +40,14 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <Links />
       </head>
       <body className="bg-gray-950 text-gray-100 antialiased font-sans selection:bg-cyan-500/30 selection:text-cyan-200 overflow-x-hidden min-h-screen">
+        <ToastContainer
+        // position="bottom-right"
+        // autoClose={4000}
+        // theme="dark"
+        // newestOnTop
+        // closeOnClick
+        // pauseOnHover
+        />
         {children}
         <ScrollRestoration />
         <Scripts />

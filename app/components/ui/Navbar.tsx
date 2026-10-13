@@ -188,3 +188,4 @@ export function Navbar({ onOpenCommandPalette }: NavbarProps) {
 }
 
 export default Navbar;
+
